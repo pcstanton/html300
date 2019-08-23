@@ -28,6 +28,7 @@ export default {
     Post
   },
   
+  
   data () {
     return {
       posts: [

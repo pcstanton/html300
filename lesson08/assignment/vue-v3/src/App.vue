@@ -35,10 +35,16 @@
 <script>
 
 import SlotsHeader from './components/SlotsHeader.vue';
+import { upper }  from '@/components/filters';
 
 export default {
   name: "app",
-  components: {SlotsHeader},
+  components: {
+    SlotsHeader
+  },
+  filters: {
+    upper
+  },
  
 };
 
