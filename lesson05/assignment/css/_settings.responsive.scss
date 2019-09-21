@@ -1,3 +1,14 @@
+//setting up flex boxes
+
+@mixin base_box() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+
+}
+
 // Media Query Generator
 
 @mixin media-query($mq) {
